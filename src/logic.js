@@ -24,6 +24,7 @@ export default function renderTasks() {
 
     const checkbox = document.createElement('input');
     listItem.classList.add('li-task');
+    listItem.classList.add('flex');
     checkbox.classList.add('complete');
     checkbox.type = 'checkbox';
     checkbox.checked = task.completed;
