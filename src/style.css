@@ -31,8 +31,11 @@ input {
   border: none;
 }
 
-main {
+.flex {
   display: flex;
+}
+
+main {  
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -51,8 +54,7 @@ main {
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-header {
-  display: flex;
+header {  
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -71,8 +73,7 @@ h1 {
   font-size: 14px;
 }
 
-#frm-task {
-  display: flex;
+#frm-task {  
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -90,13 +91,11 @@ h1 {
   padding-right: 8px;
 }
 
-#ul-tasks {
-  display: flex;
+#ul-tasks {  
   flex-direction: column;
 }
 
-.li-task {
-  display: flex;
+.li-task {  
   flex-direction: row;
   justify-content: space-between;
   border-bottom: #989898 solid 1px;
