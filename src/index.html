@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List - WebPack</title>
+    <title>To Do List Minimalist</title>
     <link rel="icon" type="image/png" href="./logo.png" />
     <script
       src="https://kit.fontawesome.com/3848942bcd.js"
@@ -17,14 +17,14 @@
     />
   </head>
   <body>
-    <main>
+    <main class="flex">
       <div id="container">
-        <header>
+        <header class="flex">
           <h1>Today's To Do</h1>
           <button type="button"><i class="fa-solid fa-arrows-rotate"></i></button>
         </header>
         <div class="todo-form">
-          <form id="frm-task">
+          <form id="frm-task" class="flex">
             <input
               id="new-task"
               type="text"
@@ -35,7 +35,7 @@
               <i class="fa-regular fa-square-check"></i>
             </button>
           </form>
-          <ul id="ul-tasks"></ul>
+          <ul id="ul-tasks" class="flex"></ul>
           <button id="btn-clear">Clear all completed</button>
         </div>
       </div>
