@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List Minimalist</title>
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <script
+      src="https://kit.fontawesome.com/3848942bcd.js"
+      crossorigin="anonymous"
+    ></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="flex">
+      <div id="container">
+        <header class="flex">
+          <h1>Today's To Do</h1>
+          <button type="button"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </header>
+        <div class="todo-form">
+          <form id="frm-task" class="flex">
+            <input
+              id="new-task"
+              type="text"
+              placeholder="Add to your list ..."
+              requiered
+            />
+            <button id="add-task" type="submit">
+              <i class="fa-regular fa-square-check"></i>
+            </button>
+          </form>
+          <ul id="ul-tasks" class="flex"></ul>
+          <button id="btn-clear">Clear all completed</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
